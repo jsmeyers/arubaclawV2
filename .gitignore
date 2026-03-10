@@ -1,0 +1,25 @@
+# arubaclawV2
+
+A Nanobot-inspired agent for Aruba CX 6100 switches.
+
+## Setup
+
+1. Clone or copy `arubaclaw.py` to the switch
+2. Configure your API key
+3. Run: `python3 arubaclaw.py --test`
+
+## Files
+
+- `arubaclaw.py` - Core agent (~4000 lines)
+- `skills/` - Skills modules
+- `tasks/` - Scheduled tasks
+- `examples/` - Example scripts
+- `tests/` - Test suite
+
+## Documentation
+
+See `PROJECT.md` for detailed docs.
+
+## License
+
+MIT - see `LICENSE`
